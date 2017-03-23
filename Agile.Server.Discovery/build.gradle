@@ -1,4 +1,4 @@
-apply from: '../springBoot.gradle'
+apply from: '../springboot.gradle'
 
 dependencies {
     compile('org.springframework.cloud:spring-cloud-starter-eureka-server')
