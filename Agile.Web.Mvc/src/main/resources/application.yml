@@ -1,0 +1,16 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: web-mvc
+  http:
+    encoding:
+      enabled: true
+      charset: UTF-8
+  thymeleaf:
+    cache: false
+    mode: HTML5
+    content-type: text/html
+    encoding: UTF-8
+
+

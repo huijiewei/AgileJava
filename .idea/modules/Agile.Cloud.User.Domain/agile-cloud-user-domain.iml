@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":agile-cloud-user-domain" external.linked.project.path="$MODULE_DIR$/../../../Agile.Cloud.User.Domain" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="com.huijiewei" external.system.module.version="1.17.0310" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/../../../Agile.Cloud.User.Domain/build/classes/main" />
+    <output-test url="file://$MODULE_DIR$/../../../Agile.Cloud.User.Domain/build/classes/test" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../Agile.Cloud.User.Domain">
+      <sourceFolder url="file://$MODULE_DIR$/../../../Agile.Cloud.User.Domain/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../Agile.Cloud.User.Domain/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../Agile.Cloud.User.Domain/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../Agile.Cloud.User.Domain/src/test/resources" type="java-test-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../Agile.Cloud.User.Domain/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../Agile.Cloud.User.Domain/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

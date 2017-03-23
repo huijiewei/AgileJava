@@ -1,0 +1,36 @@
+apply from: 'dependencies.gradle'
+
+buildscript {
+    ext {
+        springBootVersion = '1.5.2.RELEASE'
+    }
+
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+}
+
+
+allprojects {
+    group 'com.huijiewei'
+    version '1.17.0310'
+
+    apply plugin: 'idea'
+
+    buildscript {
+        repositories {
+            maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
+        }
+    }
+
+    repositories {
+        maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
+    }
+}
+
+subprojects {
+    apply plugin: 'java'
+
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+}

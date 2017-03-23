@@ -1,0 +1,9 @@
+apply plugin: 'org.springframework.boot'
+
+ext.springCloudDependenciesVersion = 'Camden.SR6'
+
+dependencyManagement {
+    imports {
+        mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudDependenciesVersion}"
+    }
+}
