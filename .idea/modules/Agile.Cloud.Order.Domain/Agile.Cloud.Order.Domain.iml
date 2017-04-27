@@ -15,7 +15,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Agile.Base" scope="PROVIDED" />
-    <orderEntry type="module" module-name="Agile.Base" scope="RUNTIME" />
     <orderEntry type="module" module-name="Agile.Base" scope="TEST" />
+    <orderEntry type="module" module-name="Agile.Base" scope="RUNTIME" />
   </component>
 </module>

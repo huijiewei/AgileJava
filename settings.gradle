@@ -9,3 +9,6 @@ include 'Agile.Server.Discovery'
 include 'Agile.Cloud.Order.Api'
 include 'Agile.Cloud.Order.Domain'
 include 'Agile.Cloud.Order.Infrastructure'
+
+include 'Agile.Cloud.Auth'
+
