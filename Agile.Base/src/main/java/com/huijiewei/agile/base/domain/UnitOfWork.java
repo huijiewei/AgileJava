@@ -1,5 +1,5 @@
 package com.huijiewei.agile.base.domain;
 
-public interface IUnitOfWork {
+public interface UnitOfWork {
     void saveChanges();
 }

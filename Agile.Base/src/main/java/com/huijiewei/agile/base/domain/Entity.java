@@ -4,7 +4,7 @@ public abstract class Entity {
     private Integer id;
 
     public Integer getId() {
-        return id;
+        return this.id;
     }
 
     protected void setId(Integer id) {
@@ -21,13 +21,13 @@ public abstract class Entity {
             return false;
         }
 
-        Entity other = (Entity) obj;
+        Entity other = this.getClass().cast(obj);
 
-        if (other.isTransient() || this.isTransient()) {
+        if (this.isTransient() || other.isTransient()) {
             return false;
         }
 
-        return this.id.equals(other.id);
+        return this.getId().equals(other.getId());
 
     }
 
@@ -37,6 +37,6 @@ public abstract class Entity {
             return super.hashCode();
         }
 
-        return this.id.hashCode() ^ 31;
+        return this.getId().hashCode() ^ 31;
     }
 }

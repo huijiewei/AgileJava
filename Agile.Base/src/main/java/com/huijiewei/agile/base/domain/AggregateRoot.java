@@ -1,4 +1,4 @@
 package com.huijiewei.agile.base.domain;
 
-public interface IAggregateRoot {
+public interface AggregateRoot {
 }
