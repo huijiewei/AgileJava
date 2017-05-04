@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id=":Agile.Server.Config" external.linked.project.path="$MODULE_DIR$/../../../Agile.Server.Config" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="com.huijiewei" external.system.module.version="1.17.0310" type="JAVA_MODULE" version="4">
+<module external.linked.project.id=":Agile.Server.Config" external.linked.project.path="$MODULE_DIR$/../../Agile.Server.Config" external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="com.huijiewei" external.system.module.version="1.17.0310" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="Spring" name="Spring">
       <configuration />
     </facet>
   </component>
   <component name="NewModuleRootManager">
-    <output url="file://$MODULE_DIR$/../../../Agile.Server.Config/build/classes/main" />
-    <output-test url="file://$MODULE_DIR$/../../../Agile.Server.Config/build/classes/test" />
+    <output url="file://$MODULE_DIR$/../../Agile.Server.Config/build/classes/main" />
+    <output-test url="file://$MODULE_DIR$/../../Agile.Server.Config/build/classes/test" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../../Agile.Server.Config">
-      <sourceFolder url="file://$MODULE_DIR$/../../../Agile.Server.Config/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../Agile.Server.Config/src/test/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../Agile.Server.Config/src/main/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../Agile.Server.Config/src/test/resources" type="java-test-resource" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../Agile.Server.Config/.gradle" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../Agile.Server.Config/build" />
+    <content url="file://$MODULE_DIR$/../../Agile.Server.Config">
+      <sourceFolder url="file://$MODULE_DIR$/../../Agile.Server.Config/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Agile.Server.Config/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Agile.Server.Config/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Agile.Server.Config/src/test/resources" type="java-test-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../../Agile.Server.Config/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../Agile.Server.Config/build" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

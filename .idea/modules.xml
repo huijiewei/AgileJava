@@ -3,14 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Agile.iml" filepath="$PROJECT_DIR$/.idea/modules/Agile.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Agile.Base/Agile.Base.iml" filepath="$PROJECT_DIR$/.idea/modules/Agile.Base/Agile.Base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Agile.Base.iml" filepath="$PROJECT_DIR$/.idea/modules/Agile.Base.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Agile.Cloud.Auth.iml" filepath="$PROJECT_DIR$/.idea/modules/Agile.Cloud.Auth.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Agile.Cloud.Order.Api/Agile.Cloud.Order.Api.iml" filepath="$PROJECT_DIR$/.idea/modules/Agile.Cloud.Order.Api/Agile.Cloud.Order.Api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Agile.Cloud.Order.Domain/Agile.Cloud.Order.Domain.iml" filepath="$PROJECT_DIR$/.idea/modules/Agile.Cloud.Order.Domain/Agile.Cloud.Order.Domain.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Agile.Cloud.Order.Infrastructure/Agile.Cloud.Order.Infrastructure.iml" filepath="$PROJECT_DIR$/.idea/modules/Agile.Cloud.Order.Infrastructure/Agile.Cloud.Order.Infrastructure.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Agile.Server.Config/Agile.Server.Config.iml" filepath="$PROJECT_DIR$/.idea/modules/Agile.Server.Config/Agile.Server.Config.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Agile.Server.Discovery/Agile.Server.Discovery.iml" filepath="$PROJECT_DIR$/.idea/modules/Agile.Server.Discovery/Agile.Server.Discovery.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Agile.Web.Mvc/Agile.Web.Mvc.iml" filepath="$PROJECT_DIR$/.idea/modules/Agile.Web.Mvc/Agile.Web.Mvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Agile.Cloud.Order.Api.iml" filepath="$PROJECT_DIR$/.idea/modules/Agile.Cloud.Order.Api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Agile.Cloud.Order.Domain.iml" filepath="$PROJECT_DIR$/.idea/modules/Agile.Cloud.Order.Domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Agile.Cloud.Order.Infrastructure.iml" filepath="$PROJECT_DIR$/.idea/modules/Agile.Cloud.Order.Infrastructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Agile.Server.Config.iml" filepath="$PROJECT_DIR$/.idea/modules/Agile.Server.Config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Agile.Server.Discovery.iml" filepath="$PROJECT_DIR$/.idea/modules/Agile.Server.Discovery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Agile.Web.Mvc.iml" filepath="$PROJECT_DIR$/.idea/modules/Agile.Web.Mvc.iml" />
     </modules>
   </component>
 </project>
