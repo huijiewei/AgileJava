@@ -1,10 +1,10 @@
 package com.huijiewei.agile.cloud.order.domain.buyer;
 
 import com.huijiewei.agile.base.domain.Entity;
-import com.huijiewei.agile.base.domain.IAggregateRoot;
+import com.huijiewei.agile.base.domain.AggregateRoot;
 import com.huijiewei.agile.base.util.StringUtils;
 
-public class Buyer extends Entity implements IAggregateRoot {
+public class Buyer extends Entity implements AggregateRoot {
     public String getIdentityGuid() {
         return identityGuid;
     }

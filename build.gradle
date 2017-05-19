@@ -3,9 +3,11 @@ apply from: 'dependencies.gradle'
 buildscript {
     ext {
         springBootVersion = '1.5.3.RELEASE'
+        kotlinVersion = "1.1.2-2"
     }
 
     dependencies {
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:${kotlinVersion}")
         classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
     }
 }
@@ -15,6 +17,7 @@ allprojects {
     group 'com.huijiewei'
     version '1.17.0310'
 
+    apply plugin: 'kotlin'
     apply plugin: 'idea'
 
     buildscript {
@@ -33,4 +36,15 @@ subprojects {
 
     sourceCompatibility = 1.8
     targetCompatibility = 1.8
+
+    dependencies {
+        compile "org.jetbrains.kotlin:kotlin-stdlib-jre8:${kotlinVersion}"
+    }
+
+    kotlin {
+        experimental {
+            coroutines 'enable'
+        }
+    }
 }
+

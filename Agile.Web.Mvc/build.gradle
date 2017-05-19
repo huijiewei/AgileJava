@@ -1,4 +1,4 @@
-apply from: '../springBoot.gradle'
+apply from: '../spring.gradle'
 
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-web')
