@@ -26,7 +26,7 @@ open class SwaggerConfig {
 
     private fun buildApiInfo(): ApiInfo {
         return ApiInfoBuilder()
-                .title("Agile 订单系统接口文档")
+                .title("Agile 订单服务接口文档")
                 .build()
     }
 }
