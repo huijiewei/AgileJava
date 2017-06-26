@@ -2,8 +2,8 @@ apply from: 'dependencies.gradle'
 
 buildscript {
     ext {
-        springBootVersion = '1.5.3.RELEASE'
-        kotlinVersion = "1.1.2-2"
+        springBootVersion = '1.5.4.RELEASE'
+        kotlinVersion = "1.1.3"
     }
 
     dependencies {
@@ -15,7 +15,7 @@ buildscript {
 
 allprojects {
     group 'com.huijiewei'
-    version '1.17.0310'
+    version '1.17.0626'
 
     apply plugin: 'kotlin'
     apply plugin: 'idea'
