@@ -5,7 +5,7 @@ spring:
     name: server-discovery
 eureka:
   instance:
-    hostname: discovery.agile.dev
+    hostname: agile.dev
   client:
     fetchRegistry: false
     registerWithEureka: false

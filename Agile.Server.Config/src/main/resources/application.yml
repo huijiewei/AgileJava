@@ -18,4 +18,8 @@ spring:
 eureka:
    client:
      serviceUrl:
-      defaultZone: http://discovery.agile.dev:8082/eureka/
+      defaultZone: http://agile.dev:8082/eureka/
+
+info:
+  app:
+    name: 集中配置服务器
