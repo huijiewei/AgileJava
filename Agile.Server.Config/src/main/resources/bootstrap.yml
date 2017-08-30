@@ -19,7 +19,5 @@ eureka:
    client:
      serviceUrl:
       defaultZone: http://agile.dev:8082/eureka/
-
-info:
-  app:
-    name: 集中配置服务器
+   instance:
+    instance-id: ${spring.cloud.client.hostname}:${server.port}
