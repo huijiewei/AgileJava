@@ -1,4 +1,4 @@
-package com.huijiewei.agile.cloud.auth
+package com.huijiewei.agile.cloud.auth.api
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.builder.SpringApplicationBuilder

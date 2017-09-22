@@ -1,4 +1,4 @@
-package com.huijiewei.agile.cloud.auth
+package com.huijiewei.agile.cloud.auth.api
 
 import org.springframework.context.annotation.Configuration
 import org.springframework.security.oauth2.config.annotation.configurers.ClientDetailsServiceConfigurer
@@ -13,7 +13,12 @@ open class AuthorizationConfiguration : AuthorizationServerConfigurerAdapter() {
                 ?.inMemory()
                 ?.withClient("client")
                 ?.secret("secret")
-                ?.authorizedGrantTypes("authorization_code", "implicit", "password", "client_credentials")
+                ?.authorizedGrantTypes(
+                        "authorization_code",
+                        "implicit",
+                        "password",
+                        "client_credentials"
+                )
                 ?.scopes("app")
     }
 }
