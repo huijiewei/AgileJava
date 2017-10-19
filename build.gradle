@@ -2,8 +2,8 @@ apply from: 'dependencies.gradle'
 
 buildscript {
     ext {
-        springBootVersion = '1.5.7.RELEASE'
-        kotlinVersion = "1.1.50"
+        springBootVersion = '1.5.8.RELEASE'
+        kotlinVersion = "1.1.51"
     }
 
     dependencies {

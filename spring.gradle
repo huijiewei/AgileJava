@@ -1,6 +1,6 @@
 apply plugin: 'org.springframework.boot'
 
-ext.springCloudDependenciesVersion = 'Dalston.SR3'
+ext.springCloudDependenciesVersion = 'Dalston.SR4'
 
 dependencyManagement {
     imports {
