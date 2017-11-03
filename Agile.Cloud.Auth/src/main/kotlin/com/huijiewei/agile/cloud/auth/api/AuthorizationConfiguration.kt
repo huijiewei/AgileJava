@@ -11,14 +11,18 @@ open class AuthorizationConfiguration : AuthorizationServerConfigurerAdapter() {
     override fun configure(clients: ClientDetailsServiceConfigurer?) {
         clients
                 ?.inMemory()
-                ?.withClient("client")
+                ?.withClient("mvcWeb")
                 ?.secret("secret")
                 ?.authorizedGrantTypes(
-                        "authorization_code",
-                        "implicit",
-                        "password",
-                        "client_credentials"
+                        "authorization_code"
                 )
                 ?.scopes("app")
+                ?.and()
+                ?.withClient("orderCloud")
+                ?.secret("secret")
+                ?.authorizedGrantTypes(
+                        "implicit"
+                )
+                ?.scopes("order")
     }
 }
