@@ -19,6 +19,8 @@ spring:
       discovery:
         enabled: true
         service-id: server-config
+  jmx:
+    enabled: false
 eureka:
     client:
       registerWithEureka: false

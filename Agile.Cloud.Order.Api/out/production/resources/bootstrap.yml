@@ -1,5 +1,5 @@
 server:
-  port: 0
+  port: 9091
 
 spring:
   application:
@@ -10,9 +10,11 @@ spring:
       discovery:
         enabled: true
         service-id: server-config
+  jmx:
+    enabled: false
 eureka:
     client:
       serviceUrl:
-       defaultZone: http://discovery.agile.dev:8082/eureka/
+       defaultZone: http://agile.dev:8082/eureka/
     instance:
-      instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+      instance-id: ${spring.cloud.client.hostname}:${server.port}

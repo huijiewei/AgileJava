@@ -3,6 +3,8 @@ server:
 spring:
   application:
     name: server-discovery
+  jmx:
+    enabled: false
 eureka:
   instance:
     hostname: agile.dev
@@ -11,8 +13,5 @@ eureka:
     registerWithEureka: false
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
-
-
-
 
 
