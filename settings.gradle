@@ -1,7 +1,6 @@
 rootProject.name = 'Agile'
 
 include 'Agile.Base'
-include 'Agile.Web.Mvc'
 
 include 'Agile.Server.Config'
 include 'Agile.Server.Discovery'
@@ -11,4 +10,6 @@ include 'Agile.Cloud.Order.Domain'
 include 'Agile.Cloud.Order.Infrastructure'
 
 include 'Agile.Cloud.Auth'
+
+include 'Agile.Web.Mvc'
 

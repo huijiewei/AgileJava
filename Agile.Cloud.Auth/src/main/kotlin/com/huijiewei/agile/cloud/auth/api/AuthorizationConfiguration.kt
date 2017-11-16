@@ -16,7 +16,7 @@ open class AuthorizationConfiguration : AuthorizationServerConfigurerAdapter() {
                 ?.authorizedGrantTypes(
                         "authorization_code"
                 )
-                ?.scopes("app")
+                ?.scopes("mvc")
                 ?.and()
                 ?.withClient("orderCloud")
                 ?.secret("secret")

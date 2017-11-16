@@ -3,7 +3,7 @@ apply from: 'dependencies.gradle'
 buildscript {
     ext {
         springBootVersion = '1.5.8.RELEASE'
-        kotlinVersion = "1.1.51"
+        kotlinVersion = "1.1.60"
     }
 
     dependencies {
@@ -12,7 +12,7 @@ buildscript {
     }
 }
 
-allprojects {
+configure(allprojects) { project ->
     group 'com.huijiewei'
     version '1.17.0626'
 
@@ -29,7 +29,7 @@ allprojects {
     }
 }
 
-subprojects {
+configure(subprojects) { project ->
     apply plugin: 'java'
     apply plugin: 'kotlin'
 
@@ -38,6 +38,17 @@ subprojects {
 
     dependencies {
         compile "org.jetbrains.kotlin:kotlin-stdlib-jre8:${kotlinVersion}"
+    }
+
+    compileJava {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+        options.encoding = 'UTF-8'
+    }
+
+    compileKotlin {
+        kotlinOptions.jvmTarget = "1.8"
+        kotlinOptions.freeCompilerArgs = ["-Xskip-runtime-version-check", "-Xjsr305=strict"]
     }
 
     kotlin {
