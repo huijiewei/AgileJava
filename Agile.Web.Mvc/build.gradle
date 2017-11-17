@@ -4,6 +4,9 @@ configurations {
     compile.exclude module: 'spring-boot-starter-tomcat'
 }
 
+ext['thymeleaf.version'] = '3.0.9.RELEASE'
+ext['thymeleaf-layout-dialect.version'] = '2.2.2'
+
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-undertow')
     compile('org.springframework.boot:spring-boot-starter-web')
