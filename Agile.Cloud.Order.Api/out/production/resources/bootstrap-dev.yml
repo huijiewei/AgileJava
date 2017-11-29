@@ -1,26 +1,20 @@
 server:
-  port: 8080
+  port: 9091
 
 spring:
   application:
-    name: web-mvc
-  http:
-    encoding:
-      enabled: true
-      charset: UTF-8
+    name: cloud-order
   cloud:
     config:
-      profile: prod
+      profile: dev
       discovery:
         enabled: true
         service-id: server-config
   jmx:
     enabled: false
-  devtools:
-    livereload:
-      enabled: false
 eureka:
     client:
-      registerWithEureka: false
       serviceUrl:
        defaultZone: http://agile.dev:8082/eureka/
+    instance:
+      instance-id: ${spring.cloud.client.hostname}:${server.port}

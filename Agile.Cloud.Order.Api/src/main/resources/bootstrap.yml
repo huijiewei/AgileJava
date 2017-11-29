@@ -6,7 +6,7 @@ spring:
     name: cloud-order
   cloud:
     config:
-      profile: dev
+      profile: prod
       discovery:
         enabled: true
         service-id: server-config

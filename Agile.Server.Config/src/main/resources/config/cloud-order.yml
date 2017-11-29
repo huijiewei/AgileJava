@@ -1,3 +1,4 @@
 info:
+  profile: prod
   app:
     name: 订单服务

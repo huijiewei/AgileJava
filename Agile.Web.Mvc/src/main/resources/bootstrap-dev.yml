@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    config:
+      profile: dev
+  devtools:
+    livereload:
+      enabled: false
+eureka:
+    client:
+      serviceUrl:
+       defaultZone: http://agile.dev:8082/eureka/

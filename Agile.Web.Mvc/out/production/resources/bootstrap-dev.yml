@@ -10,7 +10,7 @@ spring:
       charset: UTF-8
   cloud:
     config:
-      profile: prod
+      profile: dev
       discovery:
         enabled: true
         service-id: server-config

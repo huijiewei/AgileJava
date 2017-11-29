@@ -1,3 +1,4 @@
 info:
+  profile: dev
   app:
     name: 订单服务（开发）

@@ -6,6 +6,7 @@ spring:
   jmx:
     enabled: false
 eureka:
+  environment: prod
   instance:
     hostname: agile.dev
   client:
@@ -13,5 +14,3 @@ eureka:
     registerWithEureka: false
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
-
-
