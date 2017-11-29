@@ -1,5 +1,19 @@
 apply from: '../spring.gradle'
 
+bootRun {
+    jvmArgs = [
+            "-Xms16m",
+            "-Xmx32m",
+            "-XX:MaxMetaspaceSize=48m",
+            "-XX:CompressedClassSpaceSize=8m",
+            "-Xss256k",
+            "-Xmn8m",
+            "-XX:InitialCodeCacheSize=4m",
+            "-XX:ReservedCodeCacheSize=8m",
+            "-XX:MaxDirectMemorySize=16m"
+    ]
+}
+
 configurations {
     compile.exclude module: 'spring-boot-starter-tomcat'
 }

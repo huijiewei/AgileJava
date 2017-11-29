@@ -4,6 +4,20 @@ configurations {
     compile.exclude module: 'spring-boot-starter-tomcat'
 }
 
+bootRun {
+    jvmArgs = [
+            "-Xms16m",
+            "-Xmx48m",
+            "-XX:MaxMetaspaceSize=64m",
+            "-XX:CompressedClassSpaceSize=8m",
+            "-Xss256k",
+            "-Xmn8m",
+            "-XX:InitialCodeCacheSize=4m",
+            "-XX:ReservedCodeCacheSize=8m",
+            "-XX:MaxDirectMemorySize=16m"
+    ]
+}
+
 ext['thymeleaf.version'] = '3.0.9.RELEASE'
 ext['thymeleaf-layout-dialect.version'] = '2.2.2'
 
@@ -14,4 +28,5 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-actuator')
     compile('org.springframework.cloud:spring-cloud-starter-config')
     compile('org.springframework.cloud:spring-cloud-starter-eureka')
+    compile("org.springframework.boot:spring-boot-devtools")
 }

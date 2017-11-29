@@ -1,3 +1,9 @@
 info:
   app:
     name: Web 网站
+spring:
+  thymeleaf:
+    cache: true
+    mode: HTML
+    content-type: text/html
+    encoding: UTF-8

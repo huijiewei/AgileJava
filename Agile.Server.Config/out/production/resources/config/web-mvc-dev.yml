@@ -1,0 +1,7 @@
+info:
+  app:
+    name: Web 网站（开发）
+
+spring:
+  thymeleaf:
+    cache: false

@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMethod
 
 @Controller
 open class HomeController {
-    @RequestMapping(value = "/",method = arrayOf(RequestMethod.GET))
+    @RequestMapping(value = ["/"], method = [RequestMethod.GET])
     open fun actionIndex(): String {
         return "home/index"
     }

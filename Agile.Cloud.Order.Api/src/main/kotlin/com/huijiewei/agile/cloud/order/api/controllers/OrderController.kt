@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RequestMethod
 import org.springframework.web.bind.annotation.RestController
 
 @RestController
-@RequestMapping(value = "/order")
+@RequestMapping(value = ["/order"])
 open class OrderController {
-    @RequestMapping(value = "", method = arrayOf(RequestMethod.GET))
+    @RequestMapping(value = [""], method = [RequestMethod.GET])
     @ApiOperation(value = "获取订单列表", notes = "根据用户获取订单列表")
     open fun actionList(): String {
         return "Hello world"
