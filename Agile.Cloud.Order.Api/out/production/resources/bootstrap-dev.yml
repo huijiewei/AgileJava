@@ -1,20 +1,8 @@
-server:
-  port: 9091
-
 spring:
-  application:
-    name: cloud-order
   cloud:
     config:
       profile: dev
-      discovery:
-        enabled: true
-        service-id: server-config
-  jmx:
-    enabled: false
 eureka:
     client:
       serviceUrl:
        defaultZone: http://agile.dev:8082/eureka/
-    instance:
-      instance-id: ${spring.cloud.client.hostname}:${server.port}
