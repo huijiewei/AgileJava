@@ -5,7 +5,7 @@
       <configuration />
     </facet>
     <facet type="kotlin-language" name="Kotlin">
-      <configuration version="2" platform="JVM 1.8">
+      <configuration version="2" platform="JVM 1.8" useProjectSettings="false">
         <compilerSettings>
           <option name="additionalArguments" value="-Xjsr305=strict -Xskip-runtime-version-check" />
         </compilerSettings>
@@ -29,6 +29,12 @@
         </compilerArguments>
       </configuration>
     </facet>
+    <facet type="web" name="Web">
+      <configuration>
+        <webroots />
+        <sourceRoots />
+      </configuration>
+    </facet>
   </component>
   <component name="NewModuleRootManager">
     <output url="file://$MODULE_DIR$/../../Agile.Cloud.Order.Api/out/production/classes" />
@@ -50,15 +56,15 @@
     <orderEntry type="module" module-name="Agile.Base" scope="PROVIDED" />
     <orderEntry type="module" module-name="Agile.Cloud.Order.Infrastructure" scope="PROVIDED" />
     <orderEntry type="module" module-name="Agile.Cloud.Order.Domain" scope="PROVIDED" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre8:1.2.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre8:1.2.10" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.boot:spring-boot-starter-undertow:1.5.9.RELEASE" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.cloud:spring-cloud-starter-eureka:1.4.0.RELEASE" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.cloud:spring-cloud-starter-config:1.4.0.RELEASE" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.boot:spring-boot-starter-actuator:1.5.9.RELEASE" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: io.springfox:springfox-swagger2:2.7.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: io.springfox:springfox-swagger-ui:2.7.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre7:1.2.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre7:1.2.10" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.10" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: io.undertow:undertow-websockets-jsr:1.4.21.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: io.undertow:undertow-servlet:1.4.21.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: io.undertow:undertow-core:1.4.21.Final" level="project" />
@@ -182,15 +188,15 @@
     <orderEntry type="module" module-name="Agile.Base" scope="RUNTIME" />
     <orderEntry type="module" module-name="Agile.Cloud.Order.Infrastructure" scope="RUNTIME" />
     <orderEntry type="module" module-name="Agile.Cloud.Order.Domain" scope="RUNTIME" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre8:1.2.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre8:1.2.10" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.boot:spring-boot-starter-undertow:1.5.9.RELEASE" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.cloud:spring-cloud-starter-eureka:1.4.0.RELEASE" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.cloud:spring-cloud-starter-config:1.4.0.RELEASE" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.boot:spring-boot-starter-actuator:1.5.9.RELEASE" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: io.springfox:springfox-swagger2:2.7.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: io.springfox:springfox-swagger-ui:2.7.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre7:1.2.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre7:1.2.10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.10" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: io.undertow:undertow-websockets-jsr:1.4.21.Final" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: io.undertow:undertow-servlet:1.4.21.Final" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: io.undertow:undertow-core:1.4.21.Final" level="project" />
@@ -314,15 +320,15 @@
     <orderEntry type="module" module-name="Agile.Base" scope="TEST" />
     <orderEntry type="module" module-name="Agile.Cloud.Order.Infrastructure" scope="TEST" />
     <orderEntry type="module" module-name="Agile.Cloud.Order.Domain" scope="TEST" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre8:1.2.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre8:1.2.10" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.boot:spring-boot-starter-undertow:1.5.9.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.cloud:spring-cloud-starter-eureka:1.4.0.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.cloud:spring-cloud-starter-config:1.4.0.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.boot:spring-boot-starter-actuator:1.5.9.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: io.springfox:springfox-swagger2:2.7.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: io.springfox:springfox-swagger-ui:2.7.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre7:1.2.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre7:1.2.10" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.10" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: io.undertow:undertow-websockets-jsr:1.4.21.Final" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: io.undertow:undertow-servlet:1.4.21.Final" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: io.undertow:undertow-core:1.4.21.Final" level="project" />

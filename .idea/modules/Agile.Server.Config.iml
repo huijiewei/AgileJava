@@ -5,7 +5,7 @@
       <configuration />
     </facet>
     <facet type="kotlin-language" name="Kotlin">
-      <configuration version="2" platform="JVM 1.8">
+      <configuration version="2" platform="JVM 1.8" useProjectSettings="false">
         <compilerSettings>
           <option name="additionalArguments" value="-Xjsr305=strict -Xskip-runtime-version-check" />
         </compilerSettings>
@@ -29,6 +29,12 @@
         </compilerArguments>
       </configuration>
     </facet>
+    <facet type="web" name="Web">
+      <configuration>
+        <webroots />
+        <sourceRoots />
+      </configuration>
+    </facet>
   </component>
   <component name="NewModuleRootManager">
     <output url="file://$MODULE_DIR$/../../Agile.Server.Config/out/production/classes" />
@@ -47,13 +53,13 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre8:1.2.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre8:1.2.10" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.boot:spring-boot-starter-undertow:1.5.9.RELEASE" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.cloud:spring-cloud-config-server:1.4.0.RELEASE" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.cloud:spring-cloud-starter-eureka:1.4.0.RELEASE" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.boot:spring-boot-starter-actuator:1.5.9.RELEASE" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre7:1.2.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre7:1.2.10" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.10" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: io.undertow:undertow-websockets-jsr:1.4.21.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: io.undertow:undertow-servlet:1.4.21.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: io.undertow:undertow-core:1.4.21.Final" level="project" />
@@ -164,13 +170,13 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: io.netty:netty-transport:4.0.27.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: io.netty:netty-buffer:4.0.27.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: io.netty:netty-common:4.0.27.Final" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre8:1.2.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre8:1.2.10" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.boot:spring-boot-starter-undertow:1.5.9.RELEASE" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.cloud:spring-cloud-config-server:1.4.0.RELEASE" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.cloud:spring-cloud-starter-eureka:1.4.0.RELEASE" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.boot:spring-boot-starter-actuator:1.5.9.RELEASE" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre7:1.2.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre7:1.2.10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.10" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: io.undertow:undertow-websockets-jsr:1.4.21.Final" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: io.undertow:undertow-servlet:1.4.21.Final" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: io.undertow:undertow-core:1.4.21.Final" level="project" />
@@ -281,13 +287,13 @@
     <orderEntry type="library" scope="RUNTIME" name="Gradle: io.netty:netty-transport:4.0.27.Final" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: io.netty:netty-buffer:4.0.27.Final" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: io.netty:netty-common:4.0.27.Final" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre8:1.2.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre8:1.2.10" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.boot:spring-boot-starter-undertow:1.5.9.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.cloud:spring-cloud-config-server:1.4.0.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.cloud:spring-cloud-starter-eureka:1.4.0.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.boot:spring-boot-starter-actuator:1.5.9.RELEASE" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre7:1.2.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre7:1.2.10" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.10" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: io.undertow:undertow-websockets-jsr:1.4.21.Final" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: io.undertow:undertow-servlet:1.4.21.Final" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: io.undertow:undertow-core:1.4.21.Final" level="project" />
