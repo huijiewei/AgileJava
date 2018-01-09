@@ -20,10 +20,19 @@
           <option name="languageVersion" value="1.2" />
           <option name="apiVersion" value="1.2" />
           <option name="pluginOptions">
-            <array />
+            <array>
+              <option value="plugin:org.jetbrains.kotlin.allopen:annotation=" />
+              <option value="plugin:org.jetbrains.kotlin.allopen:annotation=org.springframework.stereotype.Component" />
+              <option value="plugin:org.jetbrains.kotlin.allopen:annotation=org.springframework.transaction.annotation.Transactional" />
+              <option value="plugin:org.jetbrains.kotlin.allopen:annotation=org.springframework.scheduling.annotation.Async" />
+              <option value="plugin:org.jetbrains.kotlin.allopen:annotation=org.springframework.cache.annotation.Cacheable" />
+              <option value="plugin:org.jetbrains.kotlin.allopen:annotation=org.springframework.boot.test.context.SpringBootTest" />
+            </array>
           </option>
           <option name="pluginClasspaths">
-            <array />
+            <array>
+              <option value="$KOTLIN_BUNDLED$/lib/allopen-compiler-plugin.jar" />
+            </array>
           </option>
           <option name="coroutinesEnable" value="true" />
         </compilerArguments>
@@ -37,7 +46,7 @@
     </facet>
   </component>
   <component name="NewModuleRootManager">
-    <output url="file://$MODULE_DIR$/../../Agile.Server.Discovery/out/production/classes" />
+    <output url="file://$MODULE_DIR$/../../Agile.Server.Discovery/build/classes/main" />
     <output-test url="file://$MODULE_DIR$/../../Agile.Server.Discovery/out/test/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../Agile.Server.Discovery">
@@ -53,19 +62,22 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre8:1.2.10" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.10" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.boot:spring-boot-starter-undertow:1.5.9.RELEASE" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.cloud:spring-cloud-starter-eureka-server:1.4.0.RELEASE" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre7:1.2.10" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:1.4.0.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.10" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.10" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: io.undertow:undertow-websockets-jsr:1.4.21.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: io.undertow:undertow-servlet:1.4.21.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: io.undertow:undertow-core:1.4.21.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.servlet:javax.servlet-api:3.1.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.glassfish:javax.el:3.0.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:1.4.0.RELEASE" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-ribbon:1.4.0.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-archaius:1.4.0.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.cloud:spring-cloud-starter:1.3.0.RELEASE" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.cloud:spring-cloud-netflix-eureka-server:1.4.0.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.netflix.ribbon:ribbon-eureka:2.2.4" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.boot:spring-boot-starter-freemarker:1.5.9.RELEASE" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.boot:spring-boot-starter-web:1.5.9.RELEASE" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.hibernate:hibernate-validator:5.3.6.Final" level="project" />
@@ -74,10 +86,6 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jboss.xnio:xnio-api:3.3.8.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:1.0.0.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jboss.spec.javax.websocket:jboss-websocket-api_1.1_spec:1.1.0.Final" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-ribbon:1.4.0.RELEASE" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-archaius:1.4.0.RELEASE" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.cloud:spring-cloud-starter:1.3.0.RELEASE" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.netflix.ribbon:ribbon-eureka:2.2.4" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.boot:spring-boot-starter-actuator:1.5.9.RELEASE" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.boot:spring-boot-starter:1.5.9.RELEASE" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.cloud:spring-cloud-context:1.3.0.RELEASE" level="project" />
@@ -183,19 +191,22 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: io.netty:netty-common:4.0.27.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.antlr:stringtemplate:3.2.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: antlr:antlr:2.7.7" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre8:1.2.10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.10" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.boot:spring-boot-starter-undertow:1.5.9.RELEASE" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.cloud:spring-cloud-starter-eureka-server:1.4.0.RELEASE" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre7:1.2.10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:1.4.0.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.10" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.10" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: io.undertow:undertow-websockets-jsr:1.4.21.Final" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: io.undertow:undertow-servlet:1.4.21.Final" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: io.undertow:undertow-core:1.4.21.Final" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: javax.servlet:javax.servlet-api:3.1.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.glassfish:javax.el:3.0.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:1.4.0.RELEASE" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-ribbon:1.4.0.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-archaius:1.4.0.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.cloud:spring-cloud-starter:1.3.0.RELEASE" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.cloud:spring-cloud-netflix-eureka-server:1.4.0.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.netflix.ribbon:ribbon-eureka:2.2.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.boot:spring-boot-starter-freemarker:1.5.9.RELEASE" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.boot:spring-boot-starter-web:1.5.9.RELEASE" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.hibernate:hibernate-validator:5.3.6.Final" level="project" />
@@ -204,10 +215,6 @@
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jboss.xnio:xnio-api:3.3.8.Final" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:1.0.0.Final" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jboss.spec.javax.websocket:jboss-websocket-api_1.1_spec:1.1.0.Final" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-ribbon:1.4.0.RELEASE" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-archaius:1.4.0.RELEASE" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.cloud:spring-cloud-starter:1.3.0.RELEASE" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.netflix.ribbon:ribbon-eureka:2.2.4" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.boot:spring-boot-starter-actuator:1.5.9.RELEASE" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.boot:spring-boot-starter:1.5.9.RELEASE" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.cloud:spring-cloud-context:1.3.0.RELEASE" level="project" />
@@ -313,19 +320,22 @@
     <orderEntry type="library" scope="RUNTIME" name="Gradle: io.netty:netty-common:4.0.27.Final" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.antlr:stringtemplate:3.2.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: antlr:antlr:2.7.7" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre8:1.2.10" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.10" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.boot:spring-boot-starter-undertow:1.5.9.RELEASE" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.cloud:spring-cloud-starter-eureka-server:1.4.0.RELEASE" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre7:1.2.10" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:1.4.0.RELEASE" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.10" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.10" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: io.undertow:undertow-websockets-jsr:1.4.21.Final" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: io.undertow:undertow-servlet:1.4.21.Final" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: io.undertow:undertow-core:1.4.21.Final" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: javax.servlet:javax.servlet-api:3.1.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.glassfish:javax.el:3.0.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:1.4.0.RELEASE" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-ribbon:1.4.0.RELEASE" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-archaius:1.4.0.RELEASE" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.cloud:spring-cloud-starter:1.3.0.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.cloud:spring-cloud-netflix-eureka-server:1.4.0.RELEASE" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.netflix.ribbon:ribbon-eureka:2.2.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.boot:spring-boot-starter-freemarker:1.5.9.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.boot:spring-boot-starter-web:1.5.9.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.hibernate:hibernate-validator:5.3.6.Final" level="project" />
@@ -334,10 +344,6 @@
     <orderEntry type="library" scope="TEST" name="Gradle: org.jboss.xnio:xnio-api:3.3.8.Final" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:1.0.0.Final" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jboss.spec.javax.websocket:jboss-websocket-api_1.1_spec:1.1.0.Final" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-ribbon:1.4.0.RELEASE" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-archaius:1.4.0.RELEASE" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.cloud:spring-cloud-starter:1.3.0.RELEASE" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: com.netflix.ribbon:ribbon-eureka:2.2.4" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.boot:spring-boot-starter-actuator:1.5.9.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.boot:spring-boot-starter:1.5.9.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.cloud:spring-cloud-context:1.3.0.RELEASE" level="project" />

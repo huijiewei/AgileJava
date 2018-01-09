@@ -9,8 +9,10 @@ buildscript {
 
     dependencies {
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:${kotlinVersion}")
+        classpath("org.jetbrains.kotlin:kotlin-allopen:${kotlinVersion}")
         classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
         classpath("org.springframework:springloaded:${springLoadedVersion}")
+
     }
 }
 
@@ -19,6 +21,13 @@ configure(allprojects) { project ->
     version '1.17.0626'
 
     apply plugin: 'idea'
+
+    idea {
+        module {
+            inheritOutputDirs = false
+            outputDir = file("$buildDir/classes/main/")
+        }
+    }
 
     buildscript {
         repositories {
@@ -34,12 +43,13 @@ configure(allprojects) { project ->
 configure(subprojects) { project ->
     apply plugin: 'java'
     apply plugin: 'kotlin'
+    apply plugin: "kotlin-spring"
 
     sourceCompatibility = 1.8
     targetCompatibility = 1.8
 
     dependencies {
-        compile "org.jetbrains.kotlin:kotlin-stdlib-jre8:${kotlinVersion}"
+        compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${kotlinVersion}"
     }
 
     compileJava {

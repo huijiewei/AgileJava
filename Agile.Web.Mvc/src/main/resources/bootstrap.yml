@@ -23,4 +23,4 @@ eureka:
     client:
       registerWithEureka: false
       serviceUrl:
-       defaultZone: http://agile.dev:8082/eureka/
+       defaultZone: http://agile.test:8082/eureka/

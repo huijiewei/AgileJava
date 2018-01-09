@@ -1,6 +1,6 @@
 eureka:
-  environment: dev
   instance:
-    hostname: agile.dev
+    hostname: agile.test
+    environment: dev
 
 

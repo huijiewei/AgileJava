@@ -6,9 +6,9 @@ spring:
   jmx:
     enabled: false
 eureka:
-  environment: prod
   instance:
-    hostname: agile.dev
+    hostname: agile.test
+    environment: prod
   client:
     fetchRegistry: false
     registerWithEureka: false

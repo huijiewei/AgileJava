@@ -16,6 +16,8 @@ bootRun {
             "-XX:ReservedCodeCacheSize=8m",
             "-XX:MaxDirectMemorySize=16m"
     ]
+
+    addResources = true
 }
 
 ext['thymeleaf.version'] = '3.0.9.RELEASE'
@@ -27,6 +29,6 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-thymeleaf')
     compile('org.springframework.boot:spring-boot-starter-actuator')
     compile('org.springframework.cloud:spring-cloud-starter-config')
-    compile('org.springframework.cloud:spring-cloud-starter-eureka')
+    compile('org.springframework.cloud:spring-cloud-starter-netflix-eureka-client')
     compile("org.springframework.boot:spring-boot-devtools")
 }
