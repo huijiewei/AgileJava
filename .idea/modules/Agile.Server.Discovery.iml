@@ -64,7 +64,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.10" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.boot:spring-boot-starter-undertow:1.5.9.RELEASE" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:1.4.0.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:1.4.2.RELEASE" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.10" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.10" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: io.undertow:undertow-websockets-jsr:1.4.21.Final" level="project" />
@@ -72,10 +72,10 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: io.undertow:undertow-core:1.4.21.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.servlet:javax.servlet-api:3.1.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.glassfish:javax.el:3.0.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-ribbon:1.4.0.RELEASE" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-archaius:1.4.0.RELEASE" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.cloud:spring-cloud-starter:1.3.0.RELEASE" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.cloud:spring-cloud-netflix-eureka-server:1.4.0.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-ribbon:1.4.2.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-archaius:1.4.2.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.cloud:spring-cloud-starter:1.3.1.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.cloud:spring-cloud-netflix-eureka-server:1.4.2.RELEASE" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.netflix.ribbon:ribbon-eureka:2.2.4" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.boot:spring-boot-starter-freemarker:1.5.9.RELEASE" level="project" />
@@ -88,11 +88,11 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jboss.spec.javax.websocket:jboss-websocket-api_1.1_spec:1.1.0.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.boot:spring-boot-starter-actuator:1.5.9.RELEASE" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.boot:spring-boot-starter:1.5.9.RELEASE" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.cloud:spring-cloud-context:1.3.0.RELEASE" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.cloud:spring-cloud-commons:1.3.0.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.cloud:spring-cloud-context:1.3.1.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.cloud:spring-cloud-commons:1.3.1.RELEASE" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.security:spring-security-rsa:1.0.3.RELEASE" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.cloud:spring-cloud-netflix-eureka-client:1.4.0.RELEASE" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.cloud:spring-cloud-netflix-core:1.4.0.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.cloud:spring-cloud-netflix-eureka-client:1.4.2.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.cloud:spring-cloud-netflix-core:1.4.2.RELEASE" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.netflix.eureka:eureka-core:1.7.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.netflix.eureka:eureka-client:1.7.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.sun.jersey:jersey-servlet:1.19.1" level="project" />
@@ -193,7 +193,7 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: antlr:antlr:2.7.7" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.10" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.boot:spring-boot-starter-undertow:1.5.9.RELEASE" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:1.4.0.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:1.4.2.RELEASE" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.10" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.10" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: io.undertow:undertow-websockets-jsr:1.4.21.Final" level="project" />
@@ -201,10 +201,10 @@
     <orderEntry type="library" scope="RUNTIME" name="Gradle: io.undertow:undertow-core:1.4.21.Final" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: javax.servlet:javax.servlet-api:3.1.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.glassfish:javax.el:3.0.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-ribbon:1.4.0.RELEASE" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-archaius:1.4.0.RELEASE" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.cloud:spring-cloud-starter:1.3.0.RELEASE" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.cloud:spring-cloud-netflix-eureka-server:1.4.0.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-ribbon:1.4.2.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-archaius:1.4.2.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.cloud:spring-cloud-starter:1.3.1.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.cloud:spring-cloud-netflix-eureka-server:1.4.2.RELEASE" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.netflix.ribbon:ribbon-eureka:2.2.4" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.boot:spring-boot-starter-freemarker:1.5.9.RELEASE" level="project" />
@@ -217,11 +217,11 @@
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jboss.spec.javax.websocket:jboss-websocket-api_1.1_spec:1.1.0.Final" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.boot:spring-boot-starter-actuator:1.5.9.RELEASE" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.boot:spring-boot-starter:1.5.9.RELEASE" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.cloud:spring-cloud-context:1.3.0.RELEASE" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.cloud:spring-cloud-commons:1.3.0.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.cloud:spring-cloud-context:1.3.1.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.cloud:spring-cloud-commons:1.3.1.RELEASE" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.security:spring-security-rsa:1.0.3.RELEASE" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.cloud:spring-cloud-netflix-eureka-client:1.4.0.RELEASE" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.cloud:spring-cloud-netflix-core:1.4.0.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.cloud:spring-cloud-netflix-eureka-client:1.4.2.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.cloud:spring-cloud-netflix-core:1.4.2.RELEASE" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.netflix.eureka:eureka-core:1.7.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.netflix.eureka:eureka-client:1.7.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.sun.jersey:jersey-servlet:1.19.1" level="project" />
@@ -322,7 +322,7 @@
     <orderEntry type="library" scope="RUNTIME" name="Gradle: antlr:antlr:2.7.7" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.10" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.boot:spring-boot-starter-undertow:1.5.9.RELEASE" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:1.4.0.RELEASE" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:1.4.2.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.10" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.10" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: io.undertow:undertow-websockets-jsr:1.4.21.Final" level="project" />
@@ -330,10 +330,10 @@
     <orderEntry type="library" scope="TEST" name="Gradle: io.undertow:undertow-core:1.4.21.Final" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: javax.servlet:javax.servlet-api:3.1.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.glassfish:javax.el:3.0.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-ribbon:1.4.0.RELEASE" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-archaius:1.4.0.RELEASE" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.cloud:spring-cloud-starter:1.3.0.RELEASE" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.cloud:spring-cloud-netflix-eureka-server:1.4.0.RELEASE" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-ribbon:1.4.2.RELEASE" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-archaius:1.4.2.RELEASE" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.cloud:spring-cloud-starter:1.3.1.RELEASE" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.cloud:spring-cloud-netflix-eureka-server:1.4.2.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.netflix.ribbon:ribbon-eureka:2.2.4" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.boot:spring-boot-starter-freemarker:1.5.9.RELEASE" level="project" />
@@ -346,11 +346,11 @@
     <orderEntry type="library" scope="TEST" name="Gradle: org.jboss.spec.javax.websocket:jboss-websocket-api_1.1_spec:1.1.0.Final" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.boot:spring-boot-starter-actuator:1.5.9.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.boot:spring-boot-starter:1.5.9.RELEASE" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.cloud:spring-cloud-context:1.3.0.RELEASE" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.cloud:spring-cloud-commons:1.3.0.RELEASE" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.cloud:spring-cloud-context:1.3.1.RELEASE" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.cloud:spring-cloud-commons:1.3.1.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.security:spring-security-rsa:1.0.3.RELEASE" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.cloud:spring-cloud-netflix-eureka-client:1.4.0.RELEASE" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.cloud:spring-cloud-netflix-core:1.4.0.RELEASE" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.cloud:spring-cloud-netflix-eureka-client:1.4.2.RELEASE" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.springframework.cloud:spring-cloud-netflix-core:1.4.2.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.netflix.eureka:eureka-core:1.7.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.netflix.eureka:eureka-client:1.7.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.sun.jersey:jersey-servlet:1.19.1" level="project" />
