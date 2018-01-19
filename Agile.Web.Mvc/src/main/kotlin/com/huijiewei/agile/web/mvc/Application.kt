@@ -10,7 +10,9 @@ open class Application {
     companion object {
         @JvmStatic
         fun main(args: Array<String>) {
-            SpringApplicationBuilder(Application::class.java).web(true).run(*args)
+            SpringApplicationBuilder(Application::class.java)
+                    .web(true)
+                    .run(*args)
         }
     }
 }
