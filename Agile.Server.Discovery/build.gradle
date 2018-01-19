@@ -14,8 +14,8 @@ bootRun {
     ]
 }
 
-configurations {
-    compile.exclude module: 'spring-boot-starter-tomcat'
+configurations.all {
+    exclude module: 'spring-boot-starter-tomcat'
 }
 
 dependencies {

@@ -1,9 +1,5 @@
 apply from: '../spring.gradle'
 
-configurations {
-    compile.exclude module: 'spring-boot-starter-tomcat'
-}
-
 bootRun {
     jvmArgs = [
             "-Xms16m",
@@ -20,6 +16,19 @@ bootRun {
     addResources = true
 }
 
+
+configurations.all {
+    exclude module: 'spring-boot-starter-tomcat'
+
+    // jersey1
+    exclude group: 'com.sun.jersey'
+    exclude group: 'com.sun.jersey.contribs'
+    exclude module: 'jsr311-api'
+
+    // jersey2
+    exclude group: 'org.glassfish.jersey'
+}
+
 ext['thymeleaf.version'] = '3.0.9.RELEASE'
 ext['thymeleaf-layout-dialect.version'] = '2.2.2'
 
@@ -30,5 +39,7 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-actuator')
     compile('org.springframework.cloud:spring-cloud-starter-config')
     compile('org.springframework.cloud:spring-cloud-starter-netflix-eureka-client')
+    compile('org.springframework.cloud:spring-cloud-starter-security')
+    compile('org.springframework.cloud:spring-cloud-starter-oauth2')
     compile("org.springframework.boot:spring-boot-devtools")
 }

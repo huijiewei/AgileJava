@@ -1,9 +1,5 @@
 apply from: '../spring.gradle'
 
-configurations {
-    compile.exclude module: 'spring-boot-starter-tomcat'
-}
-
 bootRun {
     jvmArgs = [
             "-Xms16m",
@@ -16,6 +12,18 @@ bootRun {
             "-XX:ReservedCodeCacheSize=8m",
             "-XX:MaxDirectMemorySize=16m"
     ]
+}
+
+configurations.all {
+    exclude module: 'spring-boot-starter-tomcat'
+
+    // jersey1
+    exclude group: 'com.sun.jersey'
+    exclude group: 'com.sun.jersey.contribs'
+    exclude module: 'jsr311-api'
+
+    // jersey2
+    exclude group: 'org.glassfish.jersey'
 }
 
 dependencies {
