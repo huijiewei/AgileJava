@@ -1,6 +1,8 @@
+spring:
+  profiles:
+    active: dev
 eureka:
   instance:
     hostname: agile.test
-    environment: dev
 
 

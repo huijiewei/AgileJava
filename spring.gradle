@@ -1,6 +1,7 @@
 apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
 
-ext.springCloudDependenciesVersion = 'Edgware.SR1'
+ext.springCloudDependenciesVersion = 'Finchley.M9'
 
 dependencyManagement {
     imports {

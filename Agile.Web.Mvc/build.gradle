@@ -13,7 +13,7 @@ bootRun {
             "-XX:MaxDirectMemorySize=16m"
     ]
 
-    addResources = true
+    sourceResources sourceSets.main
 }
 
 
@@ -30,7 +30,7 @@ configurations.all {
 }
 
 ext['thymeleaf.version'] = '3.0.9.RELEASE'
-ext['thymeleaf-layout-dialect.version'] = '2.2.2'
+ext['thymeleaf-layout-dialect.version'] = '2.3.0'
 
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-undertow')

@@ -2,9 +2,10 @@ apply from: 'dependencies.gradle'
 
 buildscript {
     ext {
-        springBootVersion = '1.5.9.RELEASE'
+        springBootVersion = '2.0.1.RELEASE'
         springLoadedVersion = '1.2.8.RELEASE'
-        kotlinVersion = "1.2.20"
+        kotlinVersion = "1.2.31"
+        dependencyManagementVersion = "1.0.5.RELEASE"
     }
 
     dependencies {
@@ -12,13 +13,28 @@ buildscript {
         classpath("org.jetbrains.kotlin:kotlin-allopen:${kotlinVersion}")
         classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
         classpath("org.springframework:springloaded:${springLoadedVersion}")
+        classpath("io.spring.gradle:dependency-management-plugin:${dependencyManagementVersion}")
+    }
 
+    repositories {
+        maven {
+            url = 'https://repo1.maven.org/maven2'
+        }
     }
 }
 
 configure(allprojects) { project ->
-    group 'com.huijiewei'
-    version '1.17.0626'
+    group = 'com.huijiewei'
+    version = '1.18.0302'
+
+    repositories {
+        maven {
+            url = "https://repo1.maven.org/maven2"
+        }
+        maven {
+            url = 'https://repo.spring.io/libs-milestone'
+        }
+    }
 
     apply plugin: 'idea'
 
@@ -27,16 +43,6 @@ configure(allprojects) { project ->
             inheritOutputDirs = false
             outputDir = file("$buildDir/classes/main/")
         }
-    }
-
-    buildscript {
-        repositories {
-            maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
-        }
-    }
-
-    repositories {
-        maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
     }
 }
 
@@ -50,6 +56,7 @@ configure(subprojects) { project ->
 
     dependencies {
         compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${kotlinVersion}"
+        compile "org.jetbrains.kotlin:kotlin-reflect:${kotlinVersion}"
     }
 
     compileJava {
@@ -67,6 +74,10 @@ configure(subprojects) { project ->
         experimental {
             coroutines 'enable'
         }
+    }
+
+    kapt {
+        useBuildCache = true
     }
 }
 

@@ -11,8 +11,5 @@ spring:
     enabled: false
 
 eureka:
-   client:
-     serviceUrl:
-      defaultZone: http://agile.test:8082/eureka/
    instance:
     instance-id: ${spring.cloud.client.hostname}:${server.port}

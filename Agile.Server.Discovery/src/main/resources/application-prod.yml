@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: prod
+eureka:
+  instance:
+    hostname: agile.huijiewei.com
+    environment: prod
+
+
